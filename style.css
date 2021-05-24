@@ -1,13 +1,78 @@
 body {
+    margin: 0;
+    padding-top: 800px;
     text-align: center;
-    background: linear-gradient(#0066ff 0%, #ff0000 100%);
+
 }
 
-
 h1 {
-    text-shadow: 2px 2px red;
-    font-size: 20px;
+    font-size: 35px;
+    line-height: 4.0;
+    font-family: cursive;
+    font-weight: 300;
+}
 
+h2 {
+    font-size: 40px;
+    line-height: 4.0;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 35px;
+    line-height: 4.0px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#0abef0 0%, #f00a1d 100%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.83;
+    z-index: 6;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.line {
+    height: 6px;
+    background-color: aqua;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .menu {
@@ -23,41 +88,28 @@ h1 {
 }
 
 .link {
-    float: left;
+    display: inline;
     color: black;
     font-family: sans-serif;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 30px;
+    padding-right: 25px;
     padding-bottom: 9px;
     padding-top: 9px;
+    font-size: 20px;
 }
 
 .link:hover {
     background-color: red;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
-p {
-    font-size: 20px;
+#ps {
+    top: 20px;
 }
 
-#para {
-    padding: 50px;
-    text-align: center;
-    font-size: 40px;
-}
-
-#welcome {
-    padding: 100px;
-    text-align: center;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-}
-
-#heading1 {
-    font-size: 40px;
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -70,7 +122,7 @@ a {
     color: aqua;
 }
 
-#Writing a {
+#Article a {
     text-shadow: none !important;
     text-decoration: underline !important;
     color: blue !important;
@@ -92,10 +144,6 @@ a {
     color: chocolate;
 }
 
-#ps {
-    top: 20px;
-}
-
-html {
-    scroll-behavior: smooth;
+img {
+    width: 250px;
 }
